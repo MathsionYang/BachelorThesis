@@ -1,0 +1,1088 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
+    <generated>
+      <config projectName="PrintedDocumentLinkingSystem" targetName="DRDLinkInjectionModule" />
+      <config projectName="PrintedDocumentLinkingSystem" targetName="OnlineDocumentVerificationModule" />
+      <config projectName="PrintedDocumentLinkingSystem" targetName="DVDLoaderModule" />
+      <config projectName="PrintedDocumentLinkingSystem" targetName="DVDataataLinkExtractionModule" />
+      <config projectName="PrintedDocumentLinkingSystem" targetName="RunTests" />
+      <config projectName="PrintedDocumentLinkingSystem" targetName="DocumentVerificationModule" />
+      <config projectName="PrintedDocumentLinkingSystem" targetName="ContentValidationModule" />
+      <config projectName="PrintedDocumentLinkingSystem" targetName="PDVS_Tests" />
+      <config projectName="PrintedDocumentLinkingSystem" targetName="ContentStandardizationModule" />
+      <config projectName="PrintedDocumentLinkingSystem" targetName="ContentHashGenerationModule" />
+      <config projectName="PrintedDocumentLinkingSystem" targetName="DVDataLinkInjectionModule" />
+      <config projectName="PrintedDocumentLinkingSystem" targetName="DocumentRegistrationModule" />
+      <config projectName="PrintedDocumentLinkingSystem" targetName="DVDLinkExtractionModule" />
+      <config projectName="PrintedDocumentLinkingSystem" targetName="OCRTestApp" />
+      <config projectName="PrintedDocumentLinkingSystem" targetName="PrintedDocumentVerificationSystem" />
+      <config projectName="PrintedDocumentLinkingSystem" targetName="PrintedDocumentLinkingSystem" />
+      <config projectName="PrintedDocumentLinkingSystem" targetName="DVDataLoaderModule" />
+      <config projectName="PrintedDocumentLinkingSystem" targetName="DVDLinkInjectionModule" />
+      <config projectName="PrintedDocumentLinkingSystem" targetName="ContentHashExtractionModule" />
+      <config projectName="PrintedDocumentLinkingSystem" targetName="runTests" />
+      <config projectName="PrintedDocumentLinkingSystem" targetName="ContentExtractionModule" />
+      <config projectName="PrintedDocumentLinkingSystem" targetName="SignatureVerificationModule" />
+      <config projectName="PrintedDocumentLinkingSystem" targetName="SignatureGenerationModule" />
+      <config projectName="PrintedDocumentLinkingSystem" targetName="DVDataLinkExtractionModule" />
+      <config projectName="PrintedDocumentLinkingSystem" targetName="OnlineDocumentRegistrationModule" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="df43fa6d-ee20-4049-9ac8-a49a8c85bc78" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ContentExtractionModule/CMakeLists.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ContentExtractionModule/data/notenspiegel.xsl.fo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ContentExtractionModule/src/CEMException.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ContentExtractionModule/src/ContentExtractionFacade.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ContentExtractionModule/src/ContentExtractionFacade.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ContentExtractionModule/src/ContentExtractionModule.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ContentExtractionModule/src/ContentExtractionModule.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ContentExtractionModule/src/Datatypes/Document.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ContentExtractionModule/src/Datatypes/Document.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ContentExtractionModule/src/Datatypes/ImageDocument.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ContentExtractionModule/src/Datatypes/ImageDocument.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ContentExtractionModule/src/Datatypes/PDFDocument.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ContentExtractionModule/src/Datatypes/PDFDocument.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ContentExtractionModule/src/Datatypes/TextDocument.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ContentExtractionModule/src/Datatypes/TextDocument.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ContentExtractionModule/src/Datatypes/XMLDocument.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ContentExtractionModule/src/Datatypes/XMLDocument.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ContentExtractionModule/src/DocumentFactory.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ContentExtractionModule/src/DocumentFactory.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ContentExtractionModule/src/ExtractionStrategy.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ContentExtractionModule/src/ImageExtraction/ImageExtractionStrategy.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ContentExtractionModule/src/ImageExtraction/TesseractExtractor.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ContentExtractionModule/src/ImageExtraction/TesseractExtractor.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ContentExtractionModule/src/PDFText/GhostScriptPDFConversion.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ContentExtractionModule/src/PDFText/GhostScriptPDFConversion.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ContentExtractionModule/src/PDFText/ImagePDFExtractor.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ContentExtractionModule/src/PDFText/ImagePDFExtractor.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ContentExtractionModule/src/PDFText/PDF2ImgConversionInterface.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ContentExtractionModule/src/PDFText/PDFExtractionStrategy.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ContentExtractionModule/src/PDFText/PDFExtractionStrategy.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ContentExtractionModule/src/PDFText/TextPDFExtractor.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ContentExtractionModule/src/PDFText/TextPDFExtractor.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ContentExtractionModule/src/XMLExtraction/XMLExtractionStrategy.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ContentExtractionModule/src/XMLExtraction/XSLFOExtractor.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ContentExtractionModule/src/XMLExtraction/XSLFOExtractor.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ContentExtractionModule/src/main.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ContentHashGenerationModule/CMakeLists.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ContentHashGenerationModule/src/CHGMException.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ContentHashGenerationModule/src/ContentHashGenerationModule.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ContentHashGenerationModule/src/ContentHashGenerationModule.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ContentHashGenerationModule/src/HashGenerationStrategy.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ContentHashGenerationModule/src/SHA256GenerationStrategy.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ContentHashGenerationModule/src/SHA256GenerationStrategy.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ContentHashGenerationModule/src/StandardizedDocumentContent.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ContentHashGenerationModule/src/main.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ContentStandardizationModule/CMakeLists.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ContentStandardizationModule/data/Notenspiegel.Calibri_11_S.scan.pdf.content.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ContentStandardizationModule/src/CSMException.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ContentStandardizationModule/src/ContentStandardizationModule.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ContentStandardizationModule/src/ContentStandardizationModule.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ContentStandardizationModule/src/DocumentContent.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ContentStandardizationModule/src/RegexReplacer.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ContentStandardizationModule/src/RegexStrategy.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ContentStandardizationModule/src/RegexStrategy.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ContentStandardizationModule/src/StandardizationStrategy.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ContentStandardizationModule/src/main.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/fontTest/OCRFontTestDocs.7z" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/fontTest/Scans/Arial_10_Strong_Scan.tif.hashedImage.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/fontTest/Scans/Arial_11_Normal_Scan.tif.hashedImage.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/fontTest/Scans/Arial_11_Strong_Scan.tif.hashedImage.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/fontTest/Scans/Arial_12_Normal_Scan.tif.hashedImage.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/fontTest/Scans/Arial_12_Strong_Scan.tif.hashedImage.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/fontTest/Scans/Arial_14_Strong_Scan.tif.hashedImage.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/fontTest/Scans/Arial_9_Strong_Scan.tif.hashedImage.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/fontTest/Scans/OpenSans_10_Normal_Scan.tif.hashedImage.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/fontTest/Scans/OpenSans_11_Normal_Scan.tif.hashedImage.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/fontTest/Scans/OpenSans_11_Strong_Scan.tif.hashedImage.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/fontTest/Scans/OpenSans_12_Normal_Scan.tif.hashedImage.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/fontTest/Scans/OpenSans_12_Strong_Scan.tif.hashedImage.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/fontTest/Scans/OpenSans_14_Normal_Scan.tif.hashedImage.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/fontTest/Scans/OpenSans_14_Strong_Scan.tif.hashedImage.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/fontTest/Scans/OpenSans_9_Normal_Scan.tif.hashedImage.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/fontTest/Scans/OpenSans_9_Strong_Scan.tif.hashedImage.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/fontTest/Scans/Thumbs.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/fontTest/Scans/TimesNewRoman_10_Normal_Scan.tif.hashedImage.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/fontTest/Scans/TimesNewRoman_10_Strong_Scan.tif.hashedImage.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/fontTest/Scans/TimesNewRoman_11_Normal_Scan.tif.hashedImage.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/fontTest/Scans/TimesNewRoman_12_Normal_Scan.tif.hashedImage.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/fontTest/Scans/TimesNewRoman_12_Strong_Scan.tif.hashedImage.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/fontTest/Scans/TimesNewRoman_14_Normal_Scan.tif.hashedImage.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/fontTest/Scans/TimesNewRoman_9_Strong_Scan.tif.hashedImage.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/fontTest/hashedImagesScans.7z" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/Arial_10_N_Table.pdf.standardizedOcrResult.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/Arial_10_N_Table.pdf.standardizedOcrResult.txt.comparisonResult.diff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/Arial_10_N_Tabular.pdf.standardizedOcrResult.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/Arial_10_N_Tabular.pdf.standardizedOcrResult.txt.comparisonResult.diff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/Arial_10_S_Table.pdf.standardizedOcrResult.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/Arial_10_S_Table.pdf.standardizedOcrResult.txt.comparisonResult.diff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/Arial_10_S_Tabular.pdf.standardizedOcrResult.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/Arial_10_S_Tabular.pdf.standardizedOcrResult.txt.comparisonResult.diff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/Arial_11_N_Table.pdf.standardizedOcrResult.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/Arial_11_N_Table.pdf.standardizedOcrResult.txt.comparisonResult.diff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/Arial_11_N_Tabular.pdf.standardizedOcrResult.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/Arial_11_N_Tabular.pdf.standardizedOcrResult.txt.comparisonResult.diff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/Arial_11_S_Table.pdf.standardizedOcrResult.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/Arial_11_S_Table.pdf.standardizedOcrResult.txt.comparisonResult.diff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/Arial_11_S_Tabular.pdf.standardizedOcrResult.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/Arial_11_S_Tabular.pdf.standardizedOcrResult.txt.comparisonResult.diff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/Arial_12_N_Table.pdf.standardizedOcrResult.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/Arial_12_N_Table.pdf.standardizedOcrResult.txt.comparisonResult.diff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/Arial_12_N_Tabular.pdf.standardizedOcrResult.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/Arial_12_N_Tabular.pdf.standardizedOcrResult.txt.comparisonResult.diff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/Arial_12_S_Table.pdf.standardizedOcrResult.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/Arial_12_S_Table.pdf.standardizedOcrResult.txt.comparisonResult.diff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/Arial_12_S_Tabular.pdf.standardizedOcrResult.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/Arial_12_S_Tabular.pdf.standardizedOcrResult.txt.comparisonResult.diff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/Arial_14_N_Table.pdf.standardizedOcrResult.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/Arial_14_N_Table.pdf.standardizedOcrResult.txt.comparisonResult.diff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/Arial_14_N_Tabular.pdf.standardizedOcrResult.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/Arial_14_N_Tabular.pdf.standardizedOcrResult.txt.comparisonResult.diff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/Arial_14_S_Table.pdf.standardizedOcrResult.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/Arial_14_S_Table.pdf.standardizedOcrResult.txt.comparisonResult.diff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/Arial_14_S_Tabular.pdf.standardizedOcrResult.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/Arial_14_S_Tabular.pdf.standardizedOcrResult.txt.comparisonResult.diff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/Arial_9_N_Table.pdf.standardizedOcrResult.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/Arial_9_N_Table.pdf.standardizedOcrResult.txt.comparisonResult.diff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/Arial_9_N_Tabular.pdf.standardizedOcrResult.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/Arial_9_N_Tabular.pdf.standardizedOcrResult.txt.comparisonResult.diff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/Arial_9_S_Table.pdf.standardizedOcrResult.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/Arial_9_S_Table.pdf.standardizedOcrResult.txt.comparisonResult.diff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/Arial_9_S_Tabular.pdf.standardizedOcrResult.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/Arial_9_S_Tabular.pdf.standardizedOcrResult.txt.comparisonResult.diff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/Calibri_10_N_Table.pdf.standardizedOcrResult.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/Calibri_10_N_Table.pdf.standardizedOcrResult.txt.comparisonResult.diff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/Calibri_10_N_Tabular.pdf.standardizedOcrResult.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/Calibri_10_N_Tabular.pdf.standardizedOcrResult.txt.comparisonResult.diff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/Calibri_10_S_Table.pdf.standardizedOcrResult.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/Calibri_10_S_Table.pdf.standardizedOcrResult.txt.comparisonResult.diff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/Calibri_10_S_Tabular.pdf.standardizedOcrResult.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/Calibri_10_S_Tabular.pdf.standardizedOcrResult.txt.comparisonResult.diff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/Calibri_11_N_Table.pdf.standardizedOcrResult.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/Calibri_11_N_Table.pdf.standardizedOcrResult.txt.comparisonResult.diff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/Calibri_11_N_Tabular.pdf.standardizedOcrResult.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/Calibri_11_N_Tabular.pdf.standardizedOcrResult.txt.comparisonResult.diff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/Calibri_11_S_Table.pdf.standardizedOcrResult.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/Calibri_11_S_Table.pdf.standardizedOcrResult.txt.comparisonResult.diff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/Calibri_11_S_Tabular.pdf.standardizedOcrResult.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/Calibri_11_S_Tabular.pdf.standardizedOcrResult.txt.comparisonResult.diff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/Calibri_12_N_Table.pdf.standardizedOcrResult.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/Calibri_12_N_Table.pdf.standardizedOcrResult.txt.comparisonResult.diff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/Calibri_12_N_Tabular.pdf.standardizedOcrResult.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/Calibri_12_N_Tabular.pdf.standardizedOcrResult.txt.comparisonResult.diff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/Calibri_12_S_Table.pdf.standardizedOcrResult.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/Calibri_12_S_Table.pdf.standardizedOcrResult.txt.comparisonResult.diff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/Calibri_12_S_Tabular.pdf.standardizedOcrResult.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/Calibri_12_S_Tabular.pdf.standardizedOcrResult.txt.comparisonResult.diff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/Calibri_14_N_Table.pdf.standardizedOcrResult.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/Calibri_14_N_Table.pdf.standardizedOcrResult.txt.comparisonResult.diff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/Calibri_14_N_Tabular.pdf.standardizedOcrResult.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/Calibri_14_N_Tabular.pdf.standardizedOcrResult.txt.comparisonResult.diff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/Calibri_14_S_Table.pdf.standardizedOcrResult.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/Calibri_14_S_Table.pdf.standardizedOcrResult.txt.comparisonResult.diff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/Calibri_14_S_Tabular.pdf.standardizedOcrResult.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/Calibri_14_S_Tabular.pdf.standardizedOcrResult.txt.comparisonResult.diff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/Calibri_9_N_Table.pdf.standardizedOcrResult.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/Calibri_9_N_Table.pdf.standardizedOcrResult.txt.comparisonResult.diff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/Calibri_9_N_Tabular.pdf.standardizedOcrResult.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/Calibri_9_N_Tabular.pdf.standardizedOcrResult.txt.comparisonResult.diff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/Calibri_9_S_Table.pdf.standardizedOcrResult.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/Calibri_9_S_Table.pdf.standardizedOcrResult.txt.comparisonResult.diff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/Calibri_9_S_Tabular.pdf.standardizedOcrResult.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/Calibri_9_S_Tabular.pdf.standardizedOcrResult.txt.comparisonResult.diff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/OpenSans_10_N_Table.pdf.standardizedOcrResult.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/OpenSans_10_N_Table.pdf.standardizedOcrResult.txt.comparisonResult.diff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/OpenSans_10_N_Tabular.pdf.standardizedOcrResult.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/OpenSans_10_N_Tabular.pdf.standardizedOcrResult.txt.comparisonResult.diff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/OpenSans_10_S_Table.pdf.standardizedOcrResult.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/OpenSans_10_S_Table.pdf.standardizedOcrResult.txt.comparisonResult.diff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/OpenSans_10_S_Tabular.pdf.standardizedOcrResult.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/OpenSans_10_S_Tabular.pdf.standardizedOcrResult.txt.comparisonResult.diff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/OpenSans_11_N_Table.pdf.standardizedOcrResult.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/OpenSans_11_N_Table.pdf.standardizedOcrResult.txt.comparisonResult.diff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/OpenSans_11_N_Tabular.pdf.standardizedOcrResult.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/OpenSans_11_N_Tabular.pdf.standardizedOcrResult.txt.comparisonResult.diff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/OpenSans_11_S_Table.pdf.standardizedOcrResult.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/OpenSans_11_S_Table.pdf.standardizedOcrResult.txt.comparisonResult.diff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/OpenSans_11_S_Tabular.pdf.standardizedOcrResult.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/OpenSans_11_S_Tabular.pdf.standardizedOcrResult.txt.comparisonResult.diff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/OpenSans_12_N_Table.pdf.standardizedOcrResult.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/OpenSans_12_N_Table.pdf.standardizedOcrResult.txt.comparisonResult.diff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/OpenSans_12_N_Tabular.pdf.standardizedOcrResult.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/OpenSans_12_N_Tabular.pdf.standardizedOcrResult.txt.comparisonResult.diff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/OpenSans_12_S_Table.pdf.standardizedOcrResult.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/OpenSans_12_S_Table.pdf.standardizedOcrResult.txt.comparisonResult.diff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/OpenSans_12_S_Tabular.pdf.standardizedOcrResult.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/OpenSans_12_S_Tabular.pdf.standardizedOcrResult.txt.comparisonResult.diff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/OpenSans_14_N_Table.pdf.standardizedOcrResult.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/OpenSans_14_N_Table.pdf.standardizedOcrResult.txt.comparisonResult.diff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/OpenSans_14_N_Tabular.pdf.standardizedOcrResult.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/OpenSans_14_N_Tabular.pdf.standardizedOcrResult.txt.comparisonResult.diff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/OpenSans_14_S_Table.pdf.standardizedOcrResult.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/OpenSans_14_S_Table.pdf.standardizedOcrResult.txt.comparisonResult.diff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/OpenSans_14_S_Tabular.pdf.standardizedOcrResult.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/OpenSans_14_S_Tabular.pdf.standardizedOcrResult.txt.comparisonResult.diff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/OpenSans_9_N_Table.pdf.standardizedOcrResult.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/OpenSans_9_N_Table.pdf.standardizedOcrResult.txt.comparisonResult.diff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/OpenSans_9_N_Tabular.pdf.standardizedOcrResult.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/OpenSans_9_N_Tabular.pdf.standardizedOcrResult.txt.comparisonResult.diff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/OpenSans_9_S_Table.pdf.standardizedOcrResult.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/OpenSans_9_S_Table.pdf.standardizedOcrResult.txt.comparisonResult.diff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/OpenSans_9_S_Tabular.pdf.standardizedOcrResult.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/OpenSans_9_S_Tabular.pdf.standardizedOcrResult.txt.comparisonResult.diff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/TimesNewRoman_10_N_Table.pdf.standardizedOcrResult.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/TimesNewRoman_10_N_Table.pdf.standardizedOcrResult.txt.comparisonResult.diff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/TimesNewRoman_10_N_Tabular.pdf.standardizedOcrResult.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/TimesNewRoman_10_N_Tabular.pdf.standardizedOcrResult.txt.comparisonResult.diff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/TimesNewRoman_10_S_Table.pdf.standardizedOcrResult.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/TimesNewRoman_10_S_Table.pdf.standardizedOcrResult.txt.comparisonResult.diff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/TimesNewRoman_10_S_Tabular.pdf.standardizedOcrResult.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/TimesNewRoman_10_S_Tabular.pdf.standardizedOcrResult.txt.comparisonResult.diff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/TimesNewRoman_11_N_Table.pdf.standardizedOcrResult.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/TimesNewRoman_11_N_Table.pdf.standardizedOcrResult.txt.comparisonResult.diff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/TimesNewRoman_11_N_Tabular.pdf.standardizedOcrResult.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/TimesNewRoman_11_N_Tabular.pdf.standardizedOcrResult.txt.comparisonResult.diff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/TimesNewRoman_11_S_Table.pdf.standardizedOcrResult.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/TimesNewRoman_11_S_Table.pdf.standardizedOcrResult.txt.comparisonResult.diff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/TimesNewRoman_11_S_Tabular.pdf.standardizedOcrResult.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/TimesNewRoman_11_S_Tabular.pdf.standardizedOcrResult.txt.comparisonResult.diff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/TimesNewRoman_12_N_Table.pdf.standardizedOcrResult.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/TimesNewRoman_12_N_Table.pdf.standardizedOcrResult.txt.comparisonResult.diff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/TimesNewRoman_12_N_Tabular.pdf.standardizedOcrResult.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/TimesNewRoman_12_N_Tabular.pdf.standardizedOcrResult.txt.comparisonResult.diff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/TimesNewRoman_12_S_Table.pdf.standardizedOcrResult.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/TimesNewRoman_12_S_Table.pdf.standardizedOcrResult.txt.comparisonResult.diff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/TimesNewRoman_12_S_Tabular.pdf.standardizedOcrResult.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/TimesNewRoman_12_S_Tabular.pdf.standardizedOcrResult.txt.comparisonResult.diff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/TimesNewRoman_14_N_Table.pdf.standardizedOcrResult.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/TimesNewRoman_14_N_Table.pdf.standardizedOcrResult.txt.comparisonResult.diff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/TimesNewRoman_14_N_Tabular.pdf.standardizedOcrResult.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/TimesNewRoman_14_N_Tabular.pdf.standardizedOcrResult.txt.comparisonResult.diff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/TimesNewRoman_14_S_Table.pdf.standardizedOcrResult.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/TimesNewRoman_14_S_Table.pdf.standardizedOcrResult.txt.comparisonResult.diff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/TimesNewRoman_14_S_Tabular.pdf.standardizedOcrResult.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/TimesNewRoman_14_S_Tabular.pdf.standardizedOcrResult.txt.comparisonResult.diff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/TimesNewRoman_9_N_Table.pdf.standardizedOcrResult.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/TimesNewRoman_9_N_Table.pdf.standardizedOcrResult.txt.comparisonResult.diff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/TimesNewRoman_9_N_Tabular.pdf.standardizedOcrResult.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/TimesNewRoman_9_N_Tabular.pdf.standardizedOcrResult.txt.comparisonResult.diff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/TimesNewRoman_9_S_Table.pdf.standardizedOcrResult.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/TimesNewRoman_9_S_Table.pdf.standardizedOcrResult.txt.comparisonResult.diff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/TimesNewRoman_9_S_Tabular.pdf.standardizedOcrResult.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/TimesNewRoman_9_S_Tabular.pdf.standardizedOcrResult.txt.comparisonResult.diff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/comparisonStats.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/comparisonResults/comparisonStats_Trimmed_ErrorDescription.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/test.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../PrintedDocumentVerificationSystem/data/Notenspiegel.Calibri_11_S.scan.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../PrintedDocumentVerificationSystem/data/Notenspiegel.Calibri_11_S.scan.pdf.content.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../PrintedDocumentVerificationSystem/data/Notenspiegel.Calibri_11_S.scan.pdf.contentHash.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../PrintedDocumentVerificationSystem/data/Notenspiegel.Calibri_11_S.scan.pdf.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../PrintedDocumentVerificationSystem/data/Notenspiegel.Calibri_11_S.scan.pdf.standardizedContent.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../PrintedDocumentVerificationSystem/data/privateKeyPassword.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../PrintedDocumentVerificationSystem/data/publicKey.pem" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/Notenspiegel.Table.odt" afterPath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/Notenspiegel.Table.odt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/OCRTestApp" afterPath="$PROJECT_DIR$/../OCRTests/notenspiegelTableTest/OCRTestApp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../OCRTests/fontTest/comparisonResults/comparisonStatsTrimmed.csv" afterPath="$PROJECT_DIR$/../OCRTests/fontTest/comparisonResults/comparisonStatsTrimmed.csv" />
+    </list>
+    <ignored path="PrintedDocumentVerificationSystem.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="PrintedDocumentVerificationSystem" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/SignatureVerificationModule/SelfSignedX509Validator.h" />
+        <option value="$PROJECT_DIR$/src/SignatureVerificationModule/OpenSSLSelfSignedX509Validator.h" />
+        <option value="$PROJECT_DIR$/src/SignatureVerificationModule/RSASignatureValidator.h" />
+        <option value="$PROJECT_DIR$/src/SignatureVerificationModule/OpenSSLSignatureValidator.h" />
+        <option value="$PROJECT_DIR$/src/LinkInjectionModule/LinkInjectionModule.cpp" />
+        <option value="$PROJECT_DIR$/src/Datatypes/ContentHash.h" />
+        <option value="$PROJECT_DIR$/src/ContentNormalizationModule/ContentNormalizationModule.cpp" />
+        <option value="$PROJECT_DIR$/src/Util/IPDF2ImageConverter.h" />
+        <option value="$PROJECT_DIR$/src/Util/PythonImage2PDFConverter.cpp" />
+        <option value="$PROJECT_DIR$/src/Util/PythonImage2PDFConverter.h" />
+        <option value="$PROJECT_DIR$/src/Util/SimplePythonImage2PDFConverter.h" />
+        <option value="$PROJECT_DIR$/src/LinkInjectionModule/TextInjector.cpp" />
+        <option value="$PROJECT_DIR$/src/LinkInjectionModule/XMLInjector.cpp" />
+        <option value="$PROJECT_DIR$/src/Datatypes/File.cpp" />
+        <option value="$PROJECT_DIR$/src/SignatureGenerationModule/OpenSSLSignatureGenerator.cpp" />
+        <option value="$PROJECT_DIR$/src/SignatureGenerationModule/OpenSSLSignatureGenerator.h" />
+        <option value="$PROJECT_DIR$/src/LinkInjectionModule/ILinkInjector.h" />
+        <option value="$PROJECT_DIR$/src/ContentExtractionModule/ContentExtractionModule.h" />
+        <option value="$PROJECT_DIR$/src/ContentExtractionModule/ContentExtractionModule.cpp" />
+        <option value="$PROJECT_DIR$/src/ContentExtractionModule/PDFExtraction/TextPDFExtractor.cpp" />
+        <option value="$PROJECT_DIR$/src/ContentExtractionModule/PDFExtraction/ImagePDFExtractor.cpp" />
+        <option value="$PROJECT_DIR$/src/ContentNormalizationModule/RegexNormalizationAlgorithm.cpp" />
+        <option value="$PROJECT_DIR$/src/PrintedDocumentLinkingSystem.h" />
+        <option value="$PROJECT_DIR$/src/Util/IImage2PDFConverter.h" />
+        <option value="$PROJECT_DIR$/src/LinkInjectionModule/PDFInjector.h" />
+        <option value="$PROJECT_DIR$/src/LinkInjectionModule/LinkInjectionModule.h" />
+        <option value="$PROJECT_DIR$/src/LinkInjectionModule/PDFInjector.cpp" />
+        <option value="$PROJECT_DIR$/src/Datatypes/Link.h" />
+        <option value="$PROJECT_DIR$/src/LinkExtractionModule/RegexLinkExtractor.cpp" />
+        <option value="$PROJECT_DIR$/src/Util/IPFSProvider.h" />
+        <option value="$PROJECT_DIR$/src/Datatypes/File.h" />
+        <option value="$PROJECT_DIR$/src/Util/GhostScriptPDFManipulator.cpp" />
+        <option value="$PROJECT_DIR$/src/Util/GhostScriptPDFManipulator.h" />
+        <option value="$PROJECT_DIR$/src/LinkInjectionModule/ImageInjector.cpp" />
+        <option value="$PROJECT_DIR$/src/LinkExtractionModule/RegexLinkExtractor.h" />
+        <option value="$PROJECT_DIR$/src/LinkExtractionModule/TextLinkExtractor.h" />
+        <option value="$PROJECT_DIR$/src/LinkExtractionModule/LinkExtractionModule.cpp" />
+        <option value="$PROJECT_DIR$/src/LinkExtractionModule/PDFLinkExtractor.cpp" />
+        <option value="$PROJECT_DIR$/src/Datatypes/PDLSException.h" />
+        <option value="$PROJECT_DIR$/src/LinkExtractionModule/PDFLinkExtractor.h" />
+        <option value="$PROJECT_DIR$/src/LinkExtractionModule/QRCodeLinkExtractor.h" />
+        <option value="$PROJECT_DIR$/src/LinkExtractionModule/LinkExtractionModule.h" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/src/LinkExtractionModule/TextLinkExtractor.cpp" />
+        <option value="$PROJECT_DIR$/src/Util/OpenCVZXingBridgeBitmapSource.h" />
+        <option value="$PROJECT_DIR$/src/Util/OpenCVZXingBridgeSource.h" />
+        <option value="$PROJECT_DIR$/src/LinkInjectionModule/ImageInjector.h" />
+        <option value="$PROJECT_DIR$/src/LinkExtractionModule/QRCodeLinkExtractor.cpp" />
+        <option value="$PROJECT_DIR$/src/Util/SimplePythonImage2PDFConverter.cpp" />
+        <option value="$PROJECT_DIR$/src/ContentExtractionModule/PDFExtraction/ImagePDFExtractor.h" />
+        <option value="$PROJECT_DIR$/src/PrintedDocumentLinkingSystem.cpp" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-1" />
+    <option name="y" value="-11" />
+    <option name="width" value="1922" />
+    <option name="height" value="1092" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PrintedDocumentLinkingSystem" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="CPPToolchains" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="js-jscs-nodeInterpreter" value="/usr/bin/node" />
+    <property name="SearchEverywhereHistoryKey" value="createDocumentCon&#9;null&#9;null" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tests/ContentExtractionModule" />
+      <recent name="$PROJECT_DIR$/src/SignatureVerificationModule" />
+      <recent name="$PROJECT_DIR$/src/DocumentRegistrationModule" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Util" />
+      <recent name="$PROJECT_DIR$/src/Datatypes" />
+      <recent name="$PROJECT_DIR$/src/ContentHashExtractionModule" />
+      <recent name="$PROJECT_DIR$/src/SignatureGenerationModule" />
+      <recent name="$PROJECT_DIR$/src/SignatureGenerationModule/src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.PDLS Link">
+    <configuration default="true" type="CLion_Remote" factoryName="GDB Remote Debug" remoteCommand="" symbolFile="" sysroot="">
+      <method />
+    </configuration>
+    <configuration default="true" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PrintedDocumentLinkingSystem" TARGET_NAME="PrintedDocumentVerificationSystem" CONFIG_NAME="Debug" TEST_MODE="SUITE_TEST">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PrintedDocumentLinkingSystem" TARGET_NAME="PrintedDocumentVerificationSystem" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="ChromiumRemoteDebugType" factoryName="Chromium Remote">
+      <method />
+    </configuration>
+    <configuration default="true" type="CompoundRunConfigurationType" factoryName="Compound Run Configuration">
+      <method />
+    </configuration>
+    <configuration default="true" type="FirefoxRemoteDebugType" factoryName="Firefox Remote">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeWebKit" factoryName="NW.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PrintedDocumentVerificationSystem" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="ReactNative" factoryName="React Native">
+      <node-interpreter value="project" />
+      <platform value="ANDROID" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PrintedDocumentVerificationSystem" />
+      <method />
+    </configuration>
+    <configuration default="true" type="XSLT" factoryName="XSLT">
+      <option name="myOutputFile" />
+      <option name="myOpenOutputFile" value="false" />
+      <option name="myOpenInBrowser" value="false" />
+      <option name="mySmartErrorHandling" value="true" />
+      <option name="myRunnerPort" value="34873" />
+      <option name="myVmArguments" />
+      <option name="myWorkingDirectory" />
+      <option name="myModule" />
+      <option name="myJdk" />
+      <parameters />
+      <OutputType value="CONSOLE" save-to-file="false" />
+      <FileType name="XML" />
+      <JdkChoice value="FROM_MODULE" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.grunt" factoryName="Grunt.js">
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PrintedDocumentVerificationSystem" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PrintedDocumentVerificationSystem" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;.&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PrintedDocumentVerificationSystem" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;.&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PrintedDocumentVerificationSystem" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;.&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="PDLS Link" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="-l -d /home/p0w3r/BachelorThesis/PrintedDocumentLinkingSystem/data/Notenspiegel.Calibri_12_S.scan.pdf -t &quot;SHA256&quot; -c /home/p0w3r/BachelorThesis/PrintedDocumentLinkingSystem/data/cert.pem -k /home/p0w3r/BachelorThesis/PrintedDocumentLinkingSystem/data/privateKey.pem -o /home/p0w3r/BachelorThesis/PrintedDocumentLinkingSystem/asd.pdf" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PrintedDocumentLinkingSystem" TARGET_NAME="PrintedDocumentLinkingSystem" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="PrintedDocumentLinkingSystem" RUN_TARGET_NAME="PrintedDocumentLinkingSystem">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="PDLS Verify" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="-v --noLEM -d /home/p0w3r/BachelorThesis/PrintedDocumentLinkingSystem/data/Notenspiegel.Calibri_12_N.scan.pdf" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PrintedDocumentLinkingSystem" TARGET_NAME="PrintedDocumentLinkingSystem" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="PrintedDocumentLinkingSystem" RUN_TARGET_NAME="PrintedDocumentLinkingSystem">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="OCRTestApp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PrintedDocumentLinkingSystem" TARGET_NAME="OCRTestApp" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="PrintedDocumentLinkingSystem" RUN_TARGET_NAME="OCRTestApp">
+      <envs />
+      <method />
+    </configuration>
+    <list size="4">
+      <item index="0" class="java.lang.String" itemvalue="Application.Build All" />
+      <item index="1" class="java.lang.String" itemvalue="Application.PDLS Link" />
+      <item index="2" class="java.lang.String" itemvalue="Application.PDLS Verify" />
+      <item index="3" class="java.lang.String" itemvalue="Application.OCRTestApp" />
+    </list>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PrintedDocumentVerificationSystem" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="df43fa6d-ee20-4049-9ac8-a49a8c85bc78" name="Default" comment="" />
+      <created>1478265285437</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1478265285437</updated>
+      <workItem from="1487000417620" duration="298000" />
+      <workItem from="1487079311816" duration="68000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="366000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-1" y="-11" width="1922" height="1092" extended-state="6" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1995731" sideWeight="0.48333332" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33854166" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328125" sideWeight="0.49786553" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.50213444" order="11" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1547492" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18836713" sideWeight="0.51666665" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32795697" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="577" y="862" width="555" height="218" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2497332" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27916667" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33229166" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+        <breakpoint log-message="true" type="CidrExceptionBreakpoint">
+          <properties caught="ANY_EXCEPTION">
+            <option name="whenCaught" value="ANY_EXCEPTION" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+      <option name="time" value="154" />
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="CMakeRunConfiguration">
+        <watch expression="doc-&gt;getPath()" language="ObjectiveC" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/SignatureGenerationModule/OpenSSLSignatureGenerator.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="38" lean-forward="false" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LinkInjectionModule/TextInjector.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="23" lean-forward="false" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LinkInjectionModule/TextInjector.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="29" lean-forward="false" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ContentExtractionModule/PDFExtraction/TextPDFExtractor.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ContentExtractionModule/PDFExtraction/TextPDFExtractor.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="10" lean-forward="false" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ContentExtractionModule/ContentExtractionModule.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="13" column="36" lean-forward="false" selection-start-line="13" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ContentNormalizationModule/RegexNormalizationAlgorithm.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="21" column="1" lean-forward="false" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ContentNormalizationModule/ContentNormalizationModule.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="31" column="29" lean-forward="false" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PrintedDocumentLinkingSystem.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="454">
+          <caret line="42" column="40" lean-forward="false" selection-start-line="42" selection-start-column="40" selection-end-line="42" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Util/SimplePythonImage2PDFConverter.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Util/IImage2PDFConverter.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ContentExtractionModule/ImageExtraction/OCRExtractor.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="32" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Datatypes/Document.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="15" column="34" lean-forward="false" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/include/zxing/Result.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="44" column="14" lean-forward="false" selection-start-line="44" selection-start-column="14" selection-end-line="44" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/include/zxing/common/Str.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="40" column="21" lean-forward="false" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/include/zxing/common/Counted.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="62" column="2" lean-forward="false" selection-start-line="62" selection-start-column="2" selection-end-line="62" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LinkInjectionModule/PDFInjector.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="47" lean-forward="false" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LinkInjectionModule/QRCodeLinkInjector.h" />
+    <entry file="file://$PROJECT_DIR$/src/LinkInjectionModule/QRCodeLinkInjector.cpp" />
+    <entry file="file:///usr/local/include/opencv2/core/mat.inl.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="591" column="0" lean-forward="false" selection-start-line="591" selection-start-column="0" selection-end-line="591" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LinkInjectionModule/LinkInjectionModule.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="34" column="9" lean-forward="false" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LinkInjectionModule/LinkInjectionModule.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="41" column="47" lean-forward="false" selection-start-line="41" selection-start-column="47" selection-end-line="41" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Datatypes/Link.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="25" column="9" lean-forward="false" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Util/IPFSProvider.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="454">
+          <caret line="91" column="36" lean-forward="false" selection-start-line="91" selection-start-column="36" selection-end-line="91" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Datatypes/File.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-362">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/boost/filesystem/path.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="662" column="14" lean-forward="false" selection-start-line="662" selection-start-column="14" selection-end-line="662" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Util/GhostScriptPDFManipulator.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LinkInjectionModule/PDFInjector.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LinkInjectionModule/ImageInjector.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="62" column="61" lean-forward="false" selection-start-line="62" selection-start-column="51" selection-end-line="62" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LinkExtractionModule/ILinkExtractor.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Datatypes/PDLSException.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="346" column="36" lean-forward="false" selection-start-line="346" selection-start-column="36" selection-end-line="346" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LinkExtractionModule/PDFLinkExtractor.cpp" />
+    <entry file="file://$PROJECT_DIR$/src/LinkExtractionModule/PDFLinkExtractor.h" />
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="123" column="41" lean-forward="false" selection-start-line="123" selection-start-column="41" selection-end-line="123" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LinkExtractionModule/TextLinkExtractor.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="14" column="31" lean-forward="false" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Util/nayukiQRCodeGen/QrCode.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Util/OpenCVZXingBridgeSource.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="22" column="36" lean-forward="false" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Util/nayukiQRCodeGen/QrCode.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LinkInjectionModule/ImageInjector.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="21" column="31" lean-forward="false" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LinkExtractionModule/TextLinkExtractor.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="20" column="9" lean-forward="false" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LinkExtractionModule/QRCodeLinkExtractor.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="28" column="13" lean-forward="false" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LinkExtractionModule/LinkExtractionModule.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="39" lean-forward="false" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LinkExtractionModule/QRCodeLinkExtractor.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LinkExtractionModule/LinkExtractionModule.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="24" lean-forward="false" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Datatypes/File.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-434">
+          <caret line="28" column="29" lean-forward="false" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ContentExtractionModule/PDFExtraction/ImagePDFExtractor.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="28" column="49" lean-forward="false" selection-start-line="28" selection-start-column="49" selection-end-line="28" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ContentExtractionModule/PDFExtraction/ImagePDFExtractor.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="5" column="24" lean-forward="false" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Util/GhostScriptPDFManipulator.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-562">
+          <caret line="5" column="50" lean-forward="false" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Util/SimplePythonImage2PDFConverter.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ContentExtractionModule/ContentExtractionModule.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="124" lean-forward="false" selection-start-line="19" selection-start-column="124" selection-end-line="19" selection-end-column="124" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PrintedDocumentLinkingSystem.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
